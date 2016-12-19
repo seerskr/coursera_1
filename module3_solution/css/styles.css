@@ -1,0 +1,82 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #F0F8FF;
+}
+#header-nav {
+	background-color: #6495ED;
+	border-radius: 0;
+	border:0;
+}
+#logo-img {
+  background: url('logo.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+.navbar-brand h1 {
+	color:	#F0FFFF;
+  	font-size: 1.5em;
+  	text-transform: uppercase;
+  	font-weight: bold;
+  	text-shadow: 1px 1px 1px #222;
+  	margin-top: 0;
+  	margin-bottom: 0;
+  	line-height: .75;
+  	float:left;
+}
+#nav-list {
+  margin-top: 10px;
+  background-color:#ADD8E6;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h2 { 
+    padding-top: 10px;
+  }
+  .col-sm-12{
+     width: 80%;
+  }
+  #collapsable-nav a span { 
+    font-size: 1.2em;
+  }
+}
+
+#main-content {
+	background-color:#F0F8FF;
+}
+#main-content h2 {
+	color:#6495ED;
+	padding-bottom: 5px;
+}
+.container .col-centered{
+    float: none;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #778899;
+}
+.container .col-centered h3 {
+	margin-top:0px;
+}
